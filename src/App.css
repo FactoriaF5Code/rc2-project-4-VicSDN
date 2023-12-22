@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Graphik Medium';
+    src: url('./fonts/Graphik-Medium-Trial.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Bold';
+    src: url('./fonts/Graphik-Bold-Trial.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Head-app {
+    background-color: #151426;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-and-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Graphik Medium';
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.logo-and-title img {
+    margin-right: 10px;
+
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.header-buttons button {
+    margin-right: 5px;
+    background-color: #5EFFC3;
+    color: #151426;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.Catalogo {
+    background-color: #151426;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Contador {
+    color: #ffffff;
+    font-family: 'Graphik Medium';
+    font-size: 12px;
+    margin-left: 70px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.Peliculas {
+    border-radius: 2px;
+    display: flex;
+    gap: 15px;
+    margin-left: 70px;
+    flex-wrap: wrap;
+}
+
+.movie img {
+    max-width: 18rem;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+#LogoHeader {
+    width: 6rem;
+    height: 1.9rem;
+    margin-left: 70px;
+}

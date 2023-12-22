@@ -1,11 +1,18 @@
-import './App.css'
-
+import Catalog  from "./components/Catalog";
+import { Header } from "./components/Header";
+import './App.css';
 function App() {
   return (
-    <>
-      <p>Proyecto 4 - Clon de Filmin</p>
-    </>
-  )
+    <div className="App-Content">
+      <header>
+        <Header />
+      </header>
+        <main>
+        <Catalog />
+        </main>
+    </div>
+  );
+
 }
 
-export default App
+export default App;
